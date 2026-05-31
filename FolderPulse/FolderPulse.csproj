@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ctrl.FolderPulseUI\Ctrl.FolderPulseUI.csproj" />
+    <ProjectReference Include="..\Lib.Common\Lib.Common.csproj" />
+    <ProjectReference Include="..\Lib.FolderPulseKernel\Lib.FolderPulseKernel.csproj" />
+  </ItemGroup>
+
+</Project>
